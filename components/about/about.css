@@ -3,9 +3,7 @@
   flex-direction: column;
   row-gap: 32px;
   text-align: center;
-}
-.about_size_m {
-  width: 44.4%;
+  max-width: 640px;
 }
 .about__title {
   color: #212429;
