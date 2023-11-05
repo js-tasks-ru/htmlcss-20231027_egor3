@@ -1,5 +1,4 @@
 .accordion {
-  width: 730px;
   display: flex;
   flex-direction: column;
   row-gap: 8px;
