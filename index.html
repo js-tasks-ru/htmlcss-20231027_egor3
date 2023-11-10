@@ -5,19 +5,31 @@
         <link rel="stylesheet" href="./assets/css/main.css">
     </head>
     <body>
-        <header class="header">
-            <h1 class="header__title">Reusable component library</h1>
-        </header>
-        <main class="gallery"></main>
-        <footer class="footer">
-            <section class="about">
-                <h2 class="about__title">About</h2>
-                <p class="about__description">This project is a collection of professionally designed, pre-built, fully responsive HTML
-                    snippets you can drop into
-                    your projects. Get started by checking out our free preview components, or browsing the PNG previews in the
-                    categories
-                    you're most curious about.</p>
-            </section>
-        </footer>
+        <div class="page">
+            <header class="header">
+                <div class="container">
+                    <h1 class="header__title">Reusable component library</h1>
+                </div>
+            </header>
+            <main class="gallery page__main">
+                <div class="container">
+                    <div class="gallery__cards">
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <section class="about">
+                    <h2 class="about__title">About</h2>
+                    <p class="about__description">This project is a collection of professionally designed, pre-built, fully responsive HTML
+                        snippets you can drop into
+                        your projects. Get started by checking out our free preview components, or browsing the PNG previews in the
+                        categories
+                        you're most curious about.</p>
+                </section>
+            </footer>
+        </div>
     </body>
 </html>
