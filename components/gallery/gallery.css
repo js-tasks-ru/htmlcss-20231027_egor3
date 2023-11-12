@@ -4,3 +4,7 @@
   border-bottom-width: 1px;
   border-color: #DDE2E5;
 }
+.gallery__cards {
+  display: flex;
+  gap: 30px;
+}
