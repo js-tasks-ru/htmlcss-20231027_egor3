@@ -1,5 +1,3 @@
-@import '../../assets/css/main.css';
-
 .skeleton {
   --gradient: linear-gradient(93deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
   background-color: var(--white);
@@ -29,6 +27,15 @@
 .skeleton__line {
   height: 20px;
   background: var(--gradient);
+}
+.skeleton__line_size_30 {
+  width: 30%;
+}
+.skeleton__line_size_50 {
+  width: 50%;
+}
+.skeleton__line_size_100 {
+  width: 100%;
 }
 .skeleton__bottom {
   display: flex;
