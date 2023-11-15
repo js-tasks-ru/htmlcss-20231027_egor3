@@ -4,8 +4,33 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./skeleton.css">
+        <style>
+            .wrapper {
+                margin: 20px;
+            }
+            .wrapper__skeleton {
+                /* width: 200px; */
+                /* width: 300px; */
+                /* width: 400px; */
+                width: 579px;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="wrapper">
+            <article class="skeleton wrapper__skeleton">
+                <div class="skeleton__top">
+                    <div class="skeleton__circle"></div>
+                    <div class="skeleton__column">
+                        <div class="skeleton__line skeleton__line_size_30"></div>
+                        <div class="skeleton__line skeleton__line_size_50"></div>
+                    </div>
+                </div>
+                <div class="skeleton__bottom">
+                    <div class="skeleton__line skeleton__line_size_100"></div>
+                    <div class="skeleton__line skeleton__line_size_100"></div>
+                </div>
+            </article>
+        </div>
     </body>
 </html>
